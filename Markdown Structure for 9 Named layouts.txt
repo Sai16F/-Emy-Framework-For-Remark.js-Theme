@@ -1,23 +1,24 @@
+
 class: intro
-background-img:.............
-background-size:cover
 
 .w-12[
-  # Demo Remarkjs Slideshow.
-  ## The Title Layout.
+  # Title
+  ## Subtitle
 ]
 
 ---
 class: image-up
-.w-12-h-10[
+
+.h-10[
   ![image](horizontal.jpg)
 ]
-.w-12-h-2.p-1[
-  ## Image With Caption the heading div accepts two classes byadding beside without spaces.
+.h-2.p-2[
+  ## Image With Caption 
 ]
 
 ---
 class: full-screen-padded
+
 .w-12[
   # One Column Layout
   * Unordered list can use asterisks
@@ -30,14 +31,13 @@ class: full-screen-padded
 
 ---
 class: image-down
-.w-12-h-8.padded[
+.h-8.padded[
   # One Column Layout And Full-Width image
   * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
 ]
-.w-12-h-4[
+.h-4[
   ![image](horizontal.jpg)
 ]
 
@@ -46,12 +46,12 @@ class: two-col-padded
 .w-12[
   # Two-Column Layout
 ]
-.w-6[
+.w-6.h-12[
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ]
-.w-6.img-fit-fill[
+.w-6.h-6.img-cover[
   ![image](horizontal.jpg)
 ]
 
@@ -77,20 +77,20 @@ class: three-col-padded
 ]
 
 ---
-class: image-right
+class:  image-right
 .w-8.padded[
   # Image-Right
   * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ]
-.w-4-h-12[
+.w-4.img-cover[
   ![image](vertical.jpg)
 ]
 
 ---
-class: image-left
-.w-4-h-12[
+class:  image-left
+.w-4.img-cover[
   ![image](vertical.jpg)
 ]
 .w-8.padded[
@@ -102,14 +102,14 @@ class: image-left
 
 ---
 class: image-show
-.w-8-h-12.img-fit-fill[
+.w-8.h-12.img-cover[
   ![image](tree.jpg)
 ]
-.w-4-h-12[
-  .w-12-h-6.img-fit-fill[
+.w-4.h-12[
+  .h-6.img-cover[
     ![image](com-ver.jpg)
   ]
-  .w-12-h-6.img-fit-fill[
+  .h-6.img-cover[
     ![image](horizontal.jpg)
   ]
 ]
