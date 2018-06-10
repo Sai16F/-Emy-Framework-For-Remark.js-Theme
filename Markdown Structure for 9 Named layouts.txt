@@ -1,0 +1,115 @@
+class: intro
+background-img:.............
+background-size:cover
+
+.w-12[
+  # Demo Remarkjs Slideshow.
+  ## The Title Layout.
+]
+
+---
+class: image-up
+.w-12-h-10[
+  ![image](horizontal.jpg)
+]
+.w-12-h-2.p-1[
+  ## Image With Caption the heading div accepts two classes byadding beside without spaces.
+]
+
+---
+class: full-screen-padded
+.w-12[
+  # One Column Layout
+  * Unordered list can use asterisks
+  - Or minuses
+  + Or pluses
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
+
+---
+class: image-down
+.w-12-h-8.padded[
+  # One Column Layout And Full-Width image
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+]
+.w-12-h-4[
+  ![image](horizontal.jpg)
+]
+
+---
+class: two-col-padded
+.w-12[
+  # Two-Column Layout
+]
+.w-6[
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
+.w-6.img-fit-fill[
+  ![image](horizontal.jpg)
+]
+
+---
+class: three-col-padded
+.w-12[
+  # Three-Column Layout
+]
+.w-4[
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
+.w-4[
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
+.w-4[
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
+
+---
+class: image-right
+.w-8.padded[
+  # Image-Right
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
+.w-4-h-12[
+  ![image](vertical.jpg)
+]
+
+---
+class: image-left
+.w-4-h-12[
+  ![image](vertical.jpg)
+]
+.w-8.padded[
+  # Image-Left
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+]
+
+---
+class: image-show
+.w-8-h-12.img-fit-fill[
+  ![image](tree.jpg)
+]
+.w-4-h-12[
+  .w-12-h-6.img-fit-fill[
+    ![image](com-ver.jpg)
+  ]
+  .w-12-h-6.img-fit-fill[
+    ![image](horizontal.jpg)
+  ]
+]
