@@ -1,9 +1,9 @@
 ----
-## Welcome to Emy-Framework For Remark.js Theme with Markdown Structure for slideshow layouts.
-## ALL RIGHTS RESERVED FOR THE DEVELOPER ON THIS FRAMEWORK PROJECT AND ITS FILES.
+# Welcome to Emy-Framework For Remark.js Theme with Markdown Structure for slideshow layouts.
+### ALL RIGHTS RESERVED FOR THE DEVELOPER ON THIS FRAMEWORK PROJECT AND ITS FILES.
 
-# This is the way you are going to use this Framework style sheet with your Remark Theme:
-- Actually, I've build This Framework to work with Specified 9 layouts. But also, Its Grid System will give you the ability to build any layout Design you want.
+## This is the way you are going to use this Framework Stylesheet with your Remark Theme:
+- Actually, I've built This Framework to work with Specified 9 layouts. But also, Its Grid System will give you the ability to build any layout Design you want.
 - But first: There are some rules you should follow to work with this Framework with Your Remrak.js Theme and the Markdown Structure.
 
 ---
@@ -29,7 +29,7 @@
   </head>
 ```
 ---
-2. To use one of the 9 layouts: Use The specific Markdown Structures and the specific classes which for each layout as you see, to make any of the 9 layouts which were provided in the framework is working as planned.
+2. To use one of the 9 layouts: Use The specific Markdown Structures and the specific classes which is specified for each layout as you see, to make any of the 9 layouts which were provided in the framework is working as planned.
 ```markdown
 class: intro
 
@@ -157,3 +157,60 @@ class: image-show
    - The ".h-6" class meaning that: the div will take 12 units of the total 12 units = 50% height from the total height ot its parent container which itself has 100% in width and height.
    - The ".h-3" class meaning that: the div will take 4 units of the total 12 units = 25% height from the total height ot its parent container which itself has 100% in width and height.
   - Specify specific row with width and height at one by one class name. like using ".w-5-h-4" for making div with 41.6666% width and 33.3333% height from the total width and height ot its parent container which itself has 100% in width and height. but make sure you put the width first in the class name.
+* Make sure the total is 100% in while using the units.
+* Here is Wath I mean:
+```markdown
+class: container
+
+# USING WIDTH UINTS ONLY IN THE GRID
+.w-6[
+    # This one with 50% width from the container width.
+]
+.w-3[
+    # This one with 25% width from the container width.
+]
+.w-3[
+    # This one with 25% width from the container width.
+]
+
+---
+class: container
+
+# USING HEIGHT UNITS ONLY IN THE GRID
+.w-6[
+    # This one with 50% width from the container width.
+]
+.w-3[
+    # This one with 25% width from the container width.
+]
+.w-3[
+    # This one with 25% width from the container width.
+]
+
+---
+class: container
+
+# USING WIDTH AND HEIGHT UNITS TOGETHER BY ONE CLASS IN THE GRID
+.w-4-h-6[
+    # This one with 33.3333% width and 50% height from the container width.
+]
+.w-8-h-12[
+    # This one with 66.6666% width and 100% from the container width and height.
+]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
